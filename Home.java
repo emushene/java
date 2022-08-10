@@ -70,31 +70,12 @@ enum myEnums {LOWBATTERY,
 						ConsoleColors.RESET); // Supposed to show red, Eclipse is DUMB yerrr sies.
 		
 		myThread testThread = new myThread(); testThread.start();
-		
-		break;
+		break;			
 		
 		}	
 		while (onOff == true);
-	
-		
-		String a = "abcd";
-		String b = "abcd123";
-		String c = a + "123";
-		
-		boolean test1 = b == c;
-		boolean test = c == b;
-		
-		
-		int ab = '8';
-		System.out.println(ab);
-		
-		System.out.println(test);
-		
-	
-		
-		
+			
 	}
-	
 	
 	@Override
 	public void soundEffect() { 
