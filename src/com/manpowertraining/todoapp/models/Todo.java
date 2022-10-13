@@ -1,4 +1,5 @@
 package com.manpowertraining.todoapp.models;
+<<<<<<< HEAD
 
 /**
  * @authors
@@ -56,4 +57,20 @@ public class Todo {
 		return "Todo { id : " + todoId + ". title : " + title + ". description : " + description + ". isCompleted : " + isCompleted + "}";
 	}
 	
+=======
+/**
+@authors
+*/
+public class Todo{
+    String title;
+    long todoId;
+    String description;
+    boolean isCompleted;	
+
+    //TODO: implement
+    /**
+        Constructor.
+        getters and setters
+     */
+>>>>>>> fe66028524f65be9282a60339e7b09d815ecf9a0
 }
