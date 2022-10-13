@@ -1,4 +1,9 @@
 package com.manpowertraining.todoapp.data;
+
+import com.manpowertraining.todoapp.models.Todo;
+
+import java.util.ArrayList;
+
 /**
 @authors
 */
