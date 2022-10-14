@@ -5,8 +5,7 @@ package com.manpowertraining.todoapp;
 */
 
 public class Main{
-
     public static void main(String[] args) {
-        //TODO
+        System.out.println("Welcome Todo App");
     }
 }

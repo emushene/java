@@ -1,20 +1,21 @@
 package com.manpowertraining.todoapp.data;
+
+import com.manpowertraining.todoapp.models.Todo;
+import com.manpowertraining.todoapp.data.Manipulator;
+import java.util.ArrayList;
 /**
-@authors
-*/
-class TodoList{
+ * @authors
+ */
 
-    ArrayList<Todo> items;
+ public class TodoList implements Manipulator {
+    private byte listCount;
+    private ArrayList<Todo> todos;
 
-    /**
-        implement functions 
-        1-> addItem();
-        2-> editItem();
-        3-> completeItem();
-        4-> deleteItem();
-        5 -> deleteAllItems();
-        6-> getAllItems();
-        7-> getAnItem();
-        
-    */
-}
+    TODO 
+    //add todo item.
+    //edit todo item.
+    //delete todo item.
+    //get todo item.
+    //get todos. 
+ }
+ 
