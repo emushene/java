@@ -8,17 +8,17 @@ public class Todo {
 	long todoId;
 	String title;
 	String description;
-	boolean isCompleted;
+	LocalDateTime completedOn;
 	
 	Todo() {
-		this(1L, "Default Title", "Default Description", false);
+		this(1L, "Default Title", "Default Description");
 	}
 	
-	Todo(long todoId, String title, String description, boolean isCompleted) {
+	Todo(long todoId, String title, String description, LocalDateTime completedOn) {
 		this.todoId = todoId;
 		this.title = title;
 		this.description = description;
-		this.isCompleted = isCompleted;
+		this.completedOn = completedOn;
 	}
 	
 	public long getId() {
@@ -45,16 +45,16 @@ public class Todo {
 		this.description = description;
 	}
 	
-	public boolean getIsCompleted() {
-		return isCompleted;
+	public LocalDateTime getCompletedOn() {
+		return completedOn;
 	}
 	
-	public void setIsCompleted(boolean isCompleted) {
-		this.isCompleted = isCompleted;
+	public void setCompletedOn(LocalDateTime completedOn) {
+		this.completedOn = completedOn;
 	}
 	
 	public String toString() {
-		return "Todo { id : " + todoId + ". title : " + title + ". description : " + description + ". isCompleted : " + isCompleted + "}";
+		return "Todo { id : " + todoId + ". title : " + title + ". description : " + description + ". isCompleted : " + completedOn + "}";
 	}
 	
 =======
